@@ -1,0 +1,24 @@
+.transport{
+    @mixin a($property) {
+        border-right: $property solid #495057;    
+    }
+    svg{
+        width: 48px;
+    }
+    &__content{
+        @include a(0px);
+    }
+    @media only screen and (min-width: 992px) {
+        &__content { 
+            @include a(2px);
+        }  
+      } 
+}
+.icon-payment{
+    img{
+        width: 32px;
+    }
+}   
+.company{
+    color: #dee2e6 
+}

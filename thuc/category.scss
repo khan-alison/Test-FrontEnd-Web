@@ -1,0 +1,101 @@
+@import 'header.scss';
+@import 'footer.scss';
+$border-bottom:1px solid black;
+$white-color:#e9ecef;
+$text-color:#212529 ;
+$font-text:"HK Grotesk",sans-serif;
+@mixin border($property) {
+    border-bottom: $property solid black;
+  }
+
+.menu{
+    &__brand{
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        span{
+            color: #9a6fe2;
+        }
+    }
+    li{
+        a{
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            font-size: 0.9rem;
+        }
+    }
+    &__extra{
+        img{
+            width: 25px;
+        }
+    }
+}
+header{
+    width: 100%;
+}
+.introduction{
+    li{
+        display: inline;
+       a{
+        color: black ;
+        font-size: 0.7875rem;
+       }
+    }
+    @media only screen and (max-width: 990px){
+        h1{
+            font-size: 2.025rem;
+        }
+    }
+}
+.title{
+    letter-spacing: 0.1em;
+    font-weight: 10 ;
+    color: #4b5156;
+}
+.sideBar{
+    padding: 18px 0px ;
+    width: 100%;
+    a{  
+        padding: 8px 16px;
+        margin-bottom: 8px;
+        font-size: 0.9rem;
+        font-family: $font-text;
+        color: #4b5156;
+        display: block;
+        width: 100%;
+    }
+    a:focus{
+        color: $text-color;
+        background-color: $white-color;
+    }
+    a:hover{
+        color: $text-color;
+        background-color: $white-color;
+    }
+    &__top{
+         @include border(1px);
+    }
+    &__end{
+        @include border(0px);
+    }
+}
+.introduce{
+    p{
+        font-size: 1.125rem;
+        font-family: $font-text;
+        font-weight: 400;
+     line-height: 1.5;
+    }
+    &__detail{
+        p{
+            letter-spacing: 0.1em;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            a{
+                color: #343a40;
+            }
+        }
+    }
+}
+
+        

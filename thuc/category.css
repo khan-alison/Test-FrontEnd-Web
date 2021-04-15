@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.payment {
+  padding: 1rem 1rem;
+  background-color: #f8f9fa;
+  color: #82878c;
+}
+
+.payment .phone {
+  border-right: 1px solid #dee2e6;
+}
+
+.payment__content {
+  font-size: 0.9rem;
+}
+
+.payment__content .flag {
+  border-right: 1px solid #dee2e6;
+}
+
+.payment__content ul {
+  font-size: 0.7875rem;
+  color: #989da0;
+}
+
+.payment img {
+  width: 20px;
+}
+
+.payment span {
+  color: #858a8f;
+  font-weight: 300;
+  font-family: "HK Grotesk",sans-serif;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+.transport svg {
+  width: 48px;
+}
+
+.transport__content {
+  border-right: 0px solid #495057;
+}
+
+@media only screen and (min-width: 992px) {
+  .transport__content {
+    border-right: 2px solid #495057;
+  }
+}
+
+.icon-payment img {
+  width: 32px;
+}
+
+.company {
+  color: #dee2e6;
+}
+
+.menu__brand {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.menu__brand span {
+  color: #9a6fe2;
+}
+
+.menu li a {
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  font-size: 0.9rem;
+}
+
+.menu__extra img {
+  width: 25px;
+}
+
+header {
+  width: 100%;
+}
+
+.introduction li {
+  display: inline;
+}
+
+.introduction li a {
+  color: black;
+  font-size: 0.7875rem;
+}
+
+@media only screen and (max-width: 990px) {
+  .introduction h1 {
+    font-size: 2.025rem;
+  }
+}
+
+.title {
+  letter-spacing: 0.1em;
+  font-weight: 10;
+  color: #4b5156;
+}
+
+.sideBar {
+  padding: 18px 0px;
+  width: 100%;
+}
+
+.sideBar a {
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  font-family: "HK Grotesk", sans-serif;
+  color: #4b5156;
+  display: block;
+  width: 100%;
+}
+
+.sideBar a:focus {
+  color: #212529;
+  background-color: #e9ecef;
+}
+
+.sideBar a:hover {
+  color: #212529;
+  background-color: #e9ecef;
+}
+
+.sideBar__top {
+  border-bottom: 1px solid black;
+}
+
+.sideBar__end {
+  border-bottom: 0px solid black;
+}
+
+.introduce p {
+  font-size: 1.125rem;
+  font-family: "HK Grotesk", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.introduce__detail p {
+  letter-spacing: 0.1em;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.introduce__detail p a {
+  color: #343a40;
+}
+/*# sourceMappingURL=category.css.map */

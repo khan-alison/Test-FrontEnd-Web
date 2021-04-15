@@ -1,0 +1,22 @@
+.transport svg {
+  width: 48px;
+}
+
+.transport__content {
+  border-right: 0px solid #495057;
+}
+
+@media only screen and (min-width: 992px) {
+  .transport__content {
+    border-right: 2px solid #495057;
+  }
+}
+
+.icon-payment img {
+  width: 32px;
+}
+
+.company {
+  color: #dee2e6;
+}
+/*# sourceMappingURL=footer.css.map */

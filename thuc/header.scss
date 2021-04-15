@@ -1,0 +1,41 @@
+$border-right:1px solid #dee2e6;
+$color-white:#ffffff ;
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.payment{
+    padding:1rem 1rem;
+    background-color: #f8f9fa;
+    color: #82878c;
+    .phone{
+        border-right: $border-right;
+    }
+   &__content{
+        font-size: 0.9rem;
+       .flag{
+          border-right: $border-right;
+       }
+       ul{
+        font-size: 0.7875rem;
+        color:#989da0;
+       }
+   }
+    img{
+        width: 20px;
+    }
+    span{
+        color: #858a8f;
+        font-weight: 300;
+        font-family: "HK Grotesk",sans-serif;
+    }
+}
+.header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1030;
+}

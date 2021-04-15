@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.payment {
+  padding: 1rem 1rem;
+  background-color: #f8f9fa;
+  color: #82878c;
+}
+
+.payment .phone {
+  border-right: 1px solid #dee2e6;
+}
+
+.payment__content {
+  font-size: 0.9rem;
+}
+
+.payment__content .flag {
+  border-right: 1px solid #dee2e6;
+}
+
+.payment__content ul {
+  font-size: 0.7875rem;
+  color: #989da0;
+}
+
+.payment img {
+  width: 20px;
+}
+
+.payment span {
+  color: #858a8f;
+  font-weight: 300;
+  font-family: "HK Grotesk",sans-serif;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+.transport svg {
+  width: 48px;
+}
+
+.transport__content {
+  border-right: 0px solid #495057;
+}
+
+@media only screen and (min-width: 992px) {
+  .transport__content {
+    border-right: 2px solid #495057;
+  }
+}
+
+.icon-payment img {
+  width: 32px;
+}
+
+.company {
+  color: #dee2e6;
+}
+
+.menu {
+  position: relative;
+}
+
+.menu__brand {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.menu__brand span {
+  color: #9a6fe2;
+}
+
+.menu li a {
+  color: #ffffff !important;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  font-size: 0.9rem;
+}
+
+.menu__extra img {
+  width: 25px;
+}
+
+.menu:hover {
+  background-color: #ffffff;
+}
+
+.menu:hover .menu__brand {
+  color: black !important;
+}
+
+.menu:hover li a {
+  color: black !important;
+}
+
+.introduce {
+  top: 0px;
+  z-index: -1;
+}
+
+.introduce li {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.introduce__content {
+  right: 0px;
+  left: 0px;
+}
+
+.introduce__content h5 {
+  letter-spacing: 0.5em;
+  font-weight: lighter;
+}
+
+.introduce__content h1 {
+  font-weight: bolder;
+  font-family: "Playfair Display",serif;
+  font-size: 6rem;
+}
+
+.introduce__content p {
+  font-size: 1.215rem;
+  margin: 10px 150px;
+}
+
+.introduce__content p a {
+  letter-spacing: 0.3em;
+  font-size: 0.6875rem;
+  font-weight: 500;
+}
+
+.introduce a img {
+  width: 50px;
+  height: 50px;
+}
+
+.introduce img {
+  height: 650px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.item__content h2 {
+  font-weight: 700;
+  font-size: 4.5rem;
+}
+
+.item__content a {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: .3em;
+  text-decoration: none;
+}
+
+.item__content a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .introduce__content h5 {
+    letter-spacing: 0.3em;
+  }
+  .introduce__content h1 {
+    font-size: 3.3rem;
+  }
+  .introduce__content p {
+    font-size: 1rem;
+    margin: 0px;
+  }
+  .item__content h2 {
+    font-size: 2.7rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */

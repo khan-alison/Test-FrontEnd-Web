@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.payment {
+  padding: 1rem 1rem;
+  background-color: #f8f9fa;
+  color: #82878c;
+}
+
+.payment .phone {
+  border-right: 1px solid #dee2e6;
+}
+
+.payment__content {
+  font-size: 0.9rem;
+}
+
+.payment__content .flag {
+  border-right: 1px solid #dee2e6;
+}
+
+.payment__content ul {
+  font-size: 0.7875rem;
+  color: #989da0;
+}
+
+.payment img {
+  width: 20px;
+}
+
+.payment span {
+  color: #858a8f;
+  font-weight: 300;
+  font-family: "HK Grotesk",sans-serif;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1030;
+}
+/*# sourceMappingURL=header.css.map */
